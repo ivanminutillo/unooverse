@@ -1,0 +1,9 @@
+{
+  "docs": {
+    "About": ["overview", "infrastructure"],
+    "Getting Started": ["get-started"],
+    "Sections": ["agent", "wallet", "plan", "work", "validate"],
+    "Contribute": ["contribute"],
+    "Donate": ["donate"]
+  }
+}

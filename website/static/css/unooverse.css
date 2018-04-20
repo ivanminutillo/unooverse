@@ -1,0 +1,134 @@
+.sideNavVisible.doc.separateOnPageNav {
+    padding: 0 20px;
+}
+
+.navPusher {
+    padding-top: 0;
+}
+footer.nav-footer {
+    background: #dadada;
+    box-shadow: none;
+}
+footer .sitemap h5 {
+    color: #4B4B4B;
+    font-weight: 600;
+}
+footer a {
+color: #4B4B4B !important;
+}
+
+.wrapper_all {
+    display: grid;
+    grid-gap: 10px;
+        grid-template-columns: 1fr  8fr  3fr;
+        grid-template-areas:
+               "....... content ......."
+}
+
+.wrapper_content {
+    grid-area: content;
+}
+/* Hero */
+.hero {
+    height: 250px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #dadada;
+    position: relative;
+    padding: 20px;
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_info {
+    position: absolute;
+    bottom: 20px;
+}
+
+.hero_info h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: .5px;
+}
+
+.hero_info h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: .5px;
+    margin-top: 5px;
+}
+/* Sidebar */
+
+nav.toc .toggleNav {
+    background: none;
+    padding-left: 40px;
+}
+
+nav.toc .toggleNav .navGroup.navGroupActive {
+    background: none;
+}
+
+nav.toc .toggleNav .navGroup.navGroupActive h3 {
+    background: none;
+    color: #4B4B4B;
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+nav.toc .toggleNav .navGroup.navGroupActive ul {
+    padding-top: 0;
+}
+
+nav.toc .toggleNav ul li {
+    color: #4B4B4B;
+    font-size: 14px;
+}
+nav.toc .toggleNav ul li a {
+    position: relative;
+}
+
+nav.toc .toggleNav ul li a:before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    display: block;
+    background: #419BF9;
+    width: 12px;
+    left: -20px;
+    top: 13px;
+}
+
+nav.toc .toggleNav ul li a.navItemActive {
+    font-weight: 600;
+    color: #4B4B4B;
+}
+
+nav.toc .toggleNav ul li a.navItemActive:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    left: -56px;
+    top: 13px;
+    height: 1px;
+    display: block;
+    background: #419BF9;
+}
+
+
+/* Article */
+
+.mainContainer .wrapper .post h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4B4B4B;
+    margin-bottom: 10px;
+    letter-spacing: .5px;
+}
+
+.doc.separateOnPageNav.sideNavVisible .navPusher .mainContainer {
+    flex: 0 0 auto;
+}
